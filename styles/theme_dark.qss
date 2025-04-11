@@ -1,0 +1,66 @@
+/* Dark Theme Variables */
+:root {
+    --bg-primary: #1e272e;
+    --bg-secondary: rgba(45, 52, 54, 0.75);
+    --text-primary: #f5f6fa;
+    --text-secondary: #dcdde1;
+    --accent-primary: #6c5ce7;
+    --accent-secondary: #a29bfe;
+    --border-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Dark Theme Overrides */
+QMainWindow, QDialog {
+    background-color: var(--bg-primary);
+}
+
+QWidget {
+    color: var(--text-primary);
+}
+
+QFrame {
+    background-color: var(--bg-secondary);
+    border: 1px solid var(--border-color);
+}
+
+QTextEdit, QComboBox, QSpinBox {
+    background-color: rgba(0, 0, 0, 0.2);
+    border: 1px solid var(--border-color);
+    color: var(--text-primary);
+}
+
+QPushButton {
+    background-color: var(--accent-primary);
+    color: var(--text-primary);
+    border: none;
+}
+
+QPushButton:hover {
+    background-color: var(--accent-secondary);
+}
+
+QSlider::groove:horizontal {
+    background: #333;
+}
+
+QSlider::handle:horizontal {
+    background: var(--accent-primary);
+    border: 1px solid var(--accent-secondary);
+}
+
+/* Custom Widget Overrides */
+#historyListWidget {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+#historyListWidget::item {
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+#historyListWidget::item:hover {
+    background-color: rgba(108, 92, 231, 0.2);
+}
+
+#historyListWidget::item:selected {
+    background-color: var(--accent-primary);
+}

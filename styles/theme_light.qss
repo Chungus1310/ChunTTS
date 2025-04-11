@@ -1,0 +1,202 @@
+/* Light Theme - Complete Stylesheet */
+
+/* General Styles */
+* {
+    font-family: Inter, sans-serif;
+    color: #2d3436;  /* Dark text for light theme */
+}
+
+QMainWindow {
+    background-color: #f5f6fa;  /* Light background */
+}
+
+/* Header */
+#headerFrame {
+    background-color: rgba(236, 240, 241, 0.9);  /* Light header */
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 10px;
+}
+
+/* Glass Panel Effect */
+#inputPanel, #controlsPanel, #audioPlayerPanel, #historyPanel {
+    background-color: rgba(236, 240, 241, 0.75);  /* Light panels */
+    border-radius: 12px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    margin: 10px;
+}
+
+QLabel {
+    background-color: transparent;
+    padding: 2px;
+    color: #2d3436;  /* Dark text */
+}
+
+QTextEdit {
+    background-color: white;  /* White text area */
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+    padding: 8px;
+    font-size: 14px;
+    color: #2d3436;  /* Dark text */
+}
+
+QTextEdit:focus {
+    border: 1px solid #6c5ce7;
+}
+
+QComboBox {
+    background-color: white;  /* White dropdown */
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+    padding: 5px 10px;
+    min-height: 25px;
+    color: #2d3436;  /* Dark text */
+}
+
+QComboBox::drop-down {
+    border: none;
+}
+
+QComboBox::down-arrow {
+    width: 16px;
+    height: 16px;
+}
+
+QComboBox QAbstractItemView {
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    selection-background-color: #6c5ce7;
+    selection-color: white; /* Keep selected item text white */
+}
+
+QSlider::groove:horizontal {
+    border: 1px solid #ddd;
+    height: 8px;
+    background: #eee;  /* Light slider track */
+    margin: 2px 0;
+    border-radius: 4px;
+}
+
+QSlider::handle:horizontal {
+    background: #6c5ce7;
+    border: 1px solid #a29bfe;
+    width: 18px;
+    margin: -5px 0;
+    border-radius: 9px;
+}
+
+QPushButton {
+    background-color: #e0e0e0;  /* Lighter gray background for standard buttons */
+    color: #2d3436;             /* Dark text for standard buttons */
+    border: 1px solid #c0c0c0;  /* Slightly darker border */
+    padding: 8px 15px;
+    border-radius: 6px;
+    min-height: 25px;
+}
+
+QPushButton:hover {
+    background-color: #d0d0d0; /* Slightly darker on hover */
+    border-color: #b0b0b0;
+}
+
+QPushButton:pressed {
+    background-color: #c0c0c0; /* Even darker when pressed */
+}
+
+/* Primary Button Style (Generate) - Keep accent color */
+#generateButton {
+    background-color: qlineargradient(x1:0, y1:0, x2:1, y2:1, stop:0 #6c5ce7, stop:1 #5641e4);
+    color: black; /* Changed from white to black for light theme */
+    border: none;
+    font-weight: bold;
+}
+
+#generateButton:hover {
+    background-color: qlineargradient(x1:0, y1:0, x2:1, y2:1, stop:0 #7f73e8, stop:1 #6b5ae5);
+    color: black; /* Ensure hover state also has black text */
+}
+
+#generateButton:disabled {
+    background-color: #bbb;
+    color: #555; /* Keep disabled text dark gray */
+    border: 1px solid #aaa;
+}
+
+/* Play Button - Keep accent color */
+#playButton {
+    background-color: #6c5ce7;
+    border-radius: 20px;
+    font-size: 18px;
+    padding: 5px;
+    color: white; /* White symbol on accent background */
+    border: none;
+}
+
+#playButton:hover {
+    background-color: #7f73e8;
+}
+
+/* Ensure specific buttons like Clear and Reset use the default QPushButton style */
+#clearButton, #resetButton, #downloadButton {
+    /* Inherit default QPushButton style */
+    /* No specific overrides needed unless you want different styling */
+}
+
+#downloadButton:disabled {
+    background-color: #bbb;
+    color: #555;
+    border: 1px solid #aaa;
+}
+
+
+/* Audio Player */
+#timeSlider::groove:horizontal {
+    border: none;
+    height: 4px;
+    background: #ddd;
+    border-radius: 2px;
+}
+
+#timeSlider::handle:horizontal {
+    background: #6c5ce7;
+    border: 2px solid #a29bfe;
+    width: 12px;
+    margin: -4px 0;
+    border-radius: 7px;
+}
+
+#volumeSlider {
+    max-width: 100px;
+}
+
+/* History List */
+QListWidget#historyListWidget {
+    background-color: rgba(255, 255, 255, 0.6);
+    border: none;
+    outline: 0;
+}
+
+QListWidget#historyListWidget::item {
+    background-color: rgba(0, 0, 0, 0.03);
+    padding: 10px;
+    margin: 2px 0;
+    border-radius: 4px;
+    color: #2d3436; /* Dark text for history items */
+}
+
+QListWidget#historyListWidget::item:hover {
+    background-color: rgba(108, 92, 231, 0.1);
+}
+
+QListWidget#historyListWidget::item:selected {
+    background-color: #6c5ce7;
+    color: white; /* White text for selected history item */
+}
+
+#footerLabel {
+    color: #777;
+    font-size: 11px;
+    padding: 10px;
+    background-color: transparent;
+}

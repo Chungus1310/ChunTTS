@@ -1,0 +1,15 @@
+{
+    "default_provider": "gtts",
+    "output_dir": "output",
+    "history_limit": 50,
+    "default_voice": "",
+    "default_rate": 1.0,
+    "default_pitch": 1.0,
+    "theme": "light",
+    "window": {
+        "width": 1200,
+        "height": 700,
+        "x": 100,
+        "y": 100
+    }
+}

@@ -1,0 +1,29 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="512" height="512" rx="80" fill="#3498db" />
+  
+  <!-- Inner background -->
+  <rect x="40" y="40" width="432" height="432" rx="60" fill="#2980b9" />
+  
+  <!-- Text element -->
+  <text x="100" y="265" font-family="Arial, sans-serif" font-weight="bold" font-size="60" fill="#ecf0f1">Chun</text>
+  
+  <!-- Sound waves -->
+  <g fill="#ecf0f1">
+    <!-- Center vertical line -->
+    <rect x="260" y="160" width="15" height="190" rx="7.5" />
+    
+    <!-- Wave 1 (closest to center) -->
+    <path d="M310 190 C330 190, 330 320, 310 320" stroke="#ecf0f1" fill="none" stroke-width="15" stroke-linecap="round" />
+    
+    <!-- Wave 2 -->
+    <path d="M345 160 C380 160, 380 350, 345 350" stroke="#ecf0f1" fill="none" stroke-width="15" stroke-linecap="round" />
+    
+    <!-- Wave 3 (outermost) -->
+    <path d="M380 130 C430 130, 430 380, 380 380" stroke="#ecf0f1" fill="none" stroke-width="15" stroke-linecap="round" />
+  </g>
+  
+  <!-- Small decorative elements -->
+  <circle cx="130" cy="130" r="15" fill="#ecf0f1" opacity="0.6" />
+  <circle cx="380" cy="380" r="15" fill="#ecf0f1" opacity="0.6" />
+</svg>
