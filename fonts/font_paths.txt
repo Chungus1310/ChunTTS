@@ -1,0 +1,4 @@
+Inter-Regular.ttf: Inter/static/Inter-Regular.ttf
+Inter-Medium.ttf: Inter/static/Inter-Medium.ttf
+Poppins-Regular.ttf: Poppins/Poppins-Regular.ttf
+Poppins-Medium.ttf: Poppins/Poppins-Medium.ttf
