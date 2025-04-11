@@ -1,8 +1,4 @@
-Chungus1310: @workspace Create an detailed readme.md file for github, for this project, make sure to keep the language friendly.
-
-Workspace: Collecting workspace information# ChunTTS
-
-![ChunTTS Logo](https://via.placeholder.com/150?text=ChunTTS)
+![ChunTTS Logo](https://github.com/user-attachments/assets/3679d8ca-d3ad-40c6-bb06-be330b105bfc)
 
 **ChunTTS** is a modern, user-friendly text-to-speech application that lets you convert text into natural-sounding speech using multiple TTS engines. With an elegant PyQt6 interface and support for various voice providers, it's perfect for content creation, accessibility, language learning, and more!
 
@@ -34,8 +30,9 @@ Workspace: Collecting workspace information# ChunTTS
 
 ## 📸 Screenshots
 
-![Dark Theme](https://via.placeholder.com/800x450?text=Dark+Theme)
-![Light Theme](https://via.placeholder.com/800x450?text=Light+Theme)
+![Dark Theme](https://github.com/user-attachments/assets/483ff822-d5de-4cc5-8f7d-369fb83d0378)
+![Light Theme](https://github.com/user-attachments/assets/203dc1c9-1e0c-43c9-914a-100f35643ba7)
+
 
 ## 🚀 Installation
 
@@ -46,7 +43,7 @@ Workspace: Collecting workspace information# ChunTTS
 ### Method 1: From Source
 1. Clone the repository:
    ```
-   git clone https://github.com/yourusername/ChunTTS.git
+   git clone https://github.com/chungus1310/ChunTTS.git
    cd ChunTTS
    ```
 
@@ -61,7 +58,7 @@ Workspace: Collecting workspace information# ChunTTS
    ```
 
 ### Method 2: Executable (Windows)
-1. Download the latest release from the [Releases](https://github.com/yourusername/ChunTTS/releases) page
+1. Download the latest release from the [Releases](https://github.com/chungus1310/ChunTTS/releases) page
 2. Extract the ZIP file
 3. Run `ChunTTS.exe`
 
